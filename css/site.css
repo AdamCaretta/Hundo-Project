@@ -1,5 +1,5 @@
 :root{
-    --primary-color: #1d5888;
+    --primary-color: #0bb6eb;
     --secondary-color: #ff993b;
     --dark-color: #292929;
     --white-color: #dff3e4;
@@ -28,6 +28,19 @@ main>.container {
     margin-bottom: 5rem;
 }
 
+footer{
+    padding-right: 1rem;
+}
+
+footer .social>a{
+    color: var(--white-color);
+    opacity: 0.75;
+}
+
+footer .social>a:hover{
+    opacity: 0.90;
+    color: var(--primary-color);
+}
 
 .sticky-footer {
     position: sticky;
