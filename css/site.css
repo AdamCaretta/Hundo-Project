@@ -1,5 +1,5 @@
 :root{
-    --primary-color: #06607b;
+    --primary-color: #054d63;
     --secondary-color: #ff993b;
     --dark-color: #292929;
     --white-color: #dff3e4;
@@ -30,6 +30,10 @@ main>.container {
 
 footer{
     padding-right: 1rem;
+}
+
+button{
+    color: var(--primary-color);
 }
 
 footer .social>a{
