@@ -1,4 +1,6 @@
-//Call Hello World
-function helloWorld(){
-    alert("hello World");
+
+alert("Hi From JS")
+
+function getValues(){
+
 }
